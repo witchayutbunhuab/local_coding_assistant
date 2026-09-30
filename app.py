@@ -19,7 +19,7 @@ st.title("💻 Local_Coding_Assistant (Hybrid RAG: Vector + Graph)")
 @st.cache_resource
 def get_assistant():
     return LocalCodingAssistant(
-        code_dir="sample_code_12",
+        code_dir="witchayut_Local_Coding_Assistant_Dataset",
         vectorstore_path="vector_store_12",
         graph_db_path="graph_db_12"
     )
